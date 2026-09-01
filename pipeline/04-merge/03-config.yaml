@@ -1,0 +1,6 @@
+package_manager: conda
+## wildcards ##
+PROTEIN1 : ["ADAT2", "ADAT3","ALKB8","CTU1","GTPB3", "NFS1","NSUN2", "NSUN3","PUS1", "PUS7","QTRT2", "QTRT1","TRM7","TRM9B","ELP3", "ELP2","WDR6"]
+PROTEIN2 : ["ALKB1", "MTO1", "MTU1"]
+PROTEIN3 : ["TRMT112"]
+PROTEIN4 : ["CTU2", "ELP1", "ELP4", "ELP5", "ELP6"]

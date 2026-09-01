@@ -1,0 +1,9 @@
+## wildcards ##
+PROTEIN_ARC : ["ArcS", "TgtA", "Elp3", "Pus3", "Pus10", "TiaS", "TmcA", "Trm9", "Tuc1"]
+PROTEIN_BACT : ["MnmC","TadA","MnmG","Tgt","MnmH","FolE","QueG","TusA","TmcA","TusC","CmoA","TusE","TusD","CmoM","MnmA","CmoB","QueA","TrmL","TrhP","TusB","QueC","MnmE","TilS","YadB","QueD","SelD","TrhO","QueE","IscS","QueF"]
+PROTEIN_EUK : ["ADAT2", "ADAT3", "ALKB1", "ALKB8", "CTU1", "CTU2", "GTPB3", "MTO1", "MTU1", "NFS1", "NSUN2", "NSUN3", "PUS1", "PUS7", "QTRT2", "QTRT1", "TRMT112", "TRM7","TRM9B", "ELP1", "ELP3", "ELP4", "ELP5", "ELP6", "ELP2", "WDR6"]
+
+#PROTEIN_ARC : ["TgtA"]
+#PROTEIN_BACT : ["MnmC", "TusD", "CmoB"]
+#PROTEIN_EUK : ["ADAT2", "ALKB1", "TRMT112", "CTU2"]
+

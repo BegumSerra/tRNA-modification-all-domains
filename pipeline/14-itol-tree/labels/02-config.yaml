@@ -1,0 +1,33 @@
+package_manager: conda
+## wildcards ##
+
+PROTEIN:
+  - MnmG
+  - ArcS
+  - TgtA
+  - MnmE
+  - ELP3
+  - Tgt_QTRT1
+  - TiaS
+  - TilS
+  - Tada-ADAT2
+TREE:
+  - MnmG_nogaps_e01_c01_m02
+  - ArcS_nogaps
+  - TgtA_f01
+  - MnmE_nogaps_e01_c01_m02
+  - ELP3_nogaps_c01_m01
+  - Tgt-QTRT1-m01
+  - TiaS_nogaps
+  - TilS_nogaps_e01_c01
+  - Tada-ADAT2
+MAP:
+  MnmG: MnmG_nogaps_e01_c01_m02
+  ArcS: ArcS_nogaps
+  TgtA: TgtA_f01
+  MnmE: MnmE_nogaps_e01_c01_m02
+  ELP3: ELP3_nogaps_c01_m01
+  Tgt_QTRT1: Tgt-QTRT1-m01
+  TiaS: TiaS_nogaps
+  TilS: TilS_nogaps_e01_c01
+  Tada-ADAT2: Tada-ADAT2

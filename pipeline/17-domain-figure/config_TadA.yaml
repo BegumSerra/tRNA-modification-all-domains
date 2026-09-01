@@ -1,0 +1,13 @@
+# Example config file for domain-figure.py
+# YAML format
+
+proteins:
+ - name: TadA
+   pfam: /home/begum/PycharmProjects/PythonProject/Jan_2026_tRNA/output/domain/blast/merged/TadA.tsv
+   fasta: /home/begum/PycharmProjects/PythonProject/Jan_2026_tRNA/output/seqs/homologs/TadA_k01_f01_e01_c01_nogaps_r01.fa
+   protein_id: NP_311452.2 
+
+ - name: AdaT2
+   pfam: /home/begum/PycharmProjects/PythonProject/Jan_2026_tRNA/output/domain/blast/merged/ADAT2.tsv
+   fasta: /home/begum/PycharmProjects/PythonProject/Jan_2026_tRNA/output/seqs/homologs/ADAT2_k01_f01_e01_c01_nogaps_r01.fa
+   protein_id: EP00074_Homo_sapiens_P048378

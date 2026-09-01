@@ -1,0 +1,138 @@
+# Configuration for phylogenetic tree construction
+# Lists all proteins with their final filtered sequences (c00 or c01)
+PROTEIN:
+  ["ADAT2_k01_f01_e01_c01",
+  "ADAT3_k01_f01_e01_c01",
+  "ALKB1_k01_f01_e00_c01",
+  "ALKB8_k01_f01_e01_c01",
+  "ArcS_k01_f00_e00_c00",
+  "CTU1_k01_f01_e01_c01",
+  "CTU2_k01_f01_e00_c01",
+  "CmoA_k01_f00_e01_c00",
+  "CmoB_k01_f00_e01_c00",
+  "CmoM_k01_f01_e01_c00",
+  "ELP1_k01_f00_e00_c01",
+  "ELP2_k01_f01_e00_c01",
+  "ELP4_k01_f00_e00_c01",
+  "ELP5_k01_f00_e00_c01",
+  "ELP6_k01_f00_e00_c01",
+  "Elp3_k01_f01_e00_c01_m01",
+  "FolE_k01_f01_e01_c01_m01",
+  "GTPB3_k01_f01_e01_c01",
+  "IscS_k01_f01_e01_c01",
+  "MTO1_k01_f00_e01_c01",
+  "MTU1_k01_f01_e00_c01",
+  "MnmA_k01_f01_e01_c01",
+  "MnmC_k01_f01_e01_c01",
+  "MnmE_k01_f01_e01_c01_m01_m02",
+  "MnmG_k01_f00_e01_c01_m01_m02",
+  "MnmH_k01_f01_e00_c01",
+  "NFS1_k01_f01_e01_c01",
+  "NSUN2_k01_f01_e00_c01",
+  "NSUN3_k01_f00_e00_c01",
+  "PUS1_k01_f01_e01_c01_m01",
+  "PUS7_k01_f01_e01_c01",
+  "Pus10_k01_f00_e00_c01",
+  "Pus3_k01_f01_e01_c01",
+  "QTRT1_k01_f00_e00_c01",
+  "QTRT2_k01_f01_e00_c01",
+  "QueA_k01_f01_e01_c01",
+  "QueC_k01_f01_e01_c01",
+  "QueD_k01_f01_e01_c01",
+  "QueE_k01_f00_e01_c01",
+  "QueF_k01_f00_e01_c00",
+  "QueG_k01_f01_e01_c00",
+  "SelD_k01_f01_e01_c01",
+  "TRM7_k01_f01_e00_c01",
+  "TRM9B_k01_f01_e00_c01",
+  "TRMT112_k01_f01_e00_c01",
+  "TadA_k01_f01_e01_c01",
+  "TgtA_k01_f00_e00_c00",
+  "Tgt_k01_f00_e01_c01",
+  "TiaS_k01_f00_e00_c01",
+  "TilS_k01_f01_e01_c01",
+  "TmcA_k01_f01_e01_c01",
+  "TrhO_k01_f01_e01_c01",
+  "TrhP_k01_f01_e01_c01_m01",
+  "Trm9_k01_f00_e00_c00",
+  "TrmL_k01_f01_e01_c01",
+  "Tuc1_k01_f01_e00_c01",
+  "TusA_k01_f01_e01_c00",
+  "TusC_k01_f00_e01_c00",
+  "TusD_k01_f00_e00_c00",
+  "WDR6_k01_f01_e00_c01",
+  "YadB_k01_f00_e01_c01"]
+
+# Mapping from protein name to filter string (for file lookup)
+FILTER_TO_PROTEIN:
+  ADAT2: ADAT2_k01_f01_e01_c01
+  ADAT3: ADAT3_k01_f01_e01_c01
+  ALKB1: ALKB1_k01_f01_e00_c01
+  ALKB8: ALKB8_k01_f01_e01_c01
+  ArcS: ArcS_k01_f00_e00_c00
+  CTU1: CTU1_k01_f01_e01_c01
+  CTU2: CTU2_k01_f01_e00_c01
+  CmoA: CmoA_k01_f00_e01_c00
+  CmoB: CmoB_k01_f00_e01_c00
+  CmoM: CmoM_k01_f01_e01_c00
+  ELP1: ELP1_k01_f00_e00_c01
+  ELP2: ELP2_k01_f01_e00_c01
+  ELP4: ELP4_k01_f00_e00_c01
+  ELP5: ELP5_k01_f00_e00_c01
+  ELP6: ELP6_k01_f00_e00_c01
+  Elp3: Elp3_k01_f01_e00_c01_m01
+  FolE: FolE_k01_f01_e01_c01_m01
+  GTPB3: GTPB3_k01_f01_e01_c01
+  IscS: IscS_k01_f01_e01_c01
+  MTO1: MTO1_k01_f00_e01_c01
+  MTU1: MTU1_k01_f01_e00_c01
+  MnmA: MnmA_k01_f01_e01_c01
+  MnmC: MnmC_k01_f01_e01_c01
+  MnmE: MnmE_k01_f01_e01_c01_m01_m02
+  MnmG: MnmG_k01_f00_e01_c01_m01_m02
+  MnmH: MnmH_k01_f01_e00_c01
+  NFS1: NFS1_k01_f01_e01_c01
+  NSUN2: NSUN2_k01_f01_e00_c01
+  NSUN3: NSUN3_k01_f00_e00_c01
+  PUS1: PUS1_k01_f01_e01_c01_m01
+  PUS7: PUS7_k01_f01_e01_c01
+  Pus10: Pus10_k01_f00_e00_c01
+  Pus3: Pus3_k01_f01_e01_c01
+  QTRT1: QTRT1_k01_f00_e00_c01
+  QTRT2: QTRT2_k01_f01_e00_c01
+  QueA: QueA_k01_f01_e01_c01
+  QueC: QueC_k01_f01_e01_c01
+  QueD: QueD_k01_f01_e01_c01
+  QueE: QueE_k01_f00_e01_c01
+  QueF: QueF_k01_f00_e01_c00
+  QueG: QueG_k01_f01_e01_c00
+  SelD: SelD_k01_f01_e01_c01
+  TRM7: TRM7_k01_f01_e00_c01
+  TRM9B: TRM9B_k01_f01_e00_c01
+  TRMT112: TRMT112_k01_f01_e00_c01
+  TadA: TadA_k01_f01_e01_c01
+  Tgt: Tgt_k01_f00_e01_c01
+  TgtA: TgtA_k01_f00_e00_c00
+  TiaS: TiaS_k01_f00_e00_c01
+  TilS: TilS_k01_f01_e01_c01
+  TmcA: TmcA_k01_f01_e01_c01
+  TrhO: TrhO_k01_f01_e01_c01
+  TrhP: TrhP_k01_f01_e01_c01_m01
+  Trm9: Trm9_k01_f00_e00_c00
+  TrmL: TrmL_k01_f01_e01_c01
+  Tuc1: Tuc1_k01_f01_e00_c01
+  TusA: TusA_k01_f01_e01_c00
+  TusC: TusC_k01_f00_e01_c00
+  TusD: TusD_k01_f00_e00_c00
+  WDR6: WDR6_k01_f01_e00_c01
+  YadB: YadB_k01_f00_e01_c01
+
+# Summary statistics
+# Total proteins: 61
+# With CD-HIT clustering (c01): 44 proteins
+# Without CD-HIT clustering (c00): 11 proteins (ArcS, CmoA, CmoB, CmoM, QueF, QueG, TgtA, Trm9, TusA, TusC, TusD)
+# With manual filtering (m01): 6 proteins
+# With manual filtering (m02): 2 proteins (MnmE, MnmG)
+
+# Parameters
+uf: 1000

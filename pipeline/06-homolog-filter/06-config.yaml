@@ -1,0 +1,20 @@
+# Configuration file for CD-HIT clustering (step 04)
+# Auto-generated based on results from step 03 (e01/e00 filtering)
+
+# List of all tree names to process
+# Format: {PROTEIN}_{domain_filter}_{euk_filter}
+# Examples: ADAT2_f01_e01, CmoB_f00_e01, ALKB1_f01_e00, ArcS_f00_e00
+PROTEIN:
+  - MnmE
+  - MnmG
+
+FILTER:
+- MnmE_k01_f01_e01_c01_m01
+- MnmG_k01_f00_e01_c01_m01
+
+MAP: # Mapping from PROTEIN to TREE
+  MnmE_k01_f01_e01_c01_m01: MnmE
+  MnmG_k01_f00_e01_c01_m01: MnmG
+
+# IQTree ultrafast bootstrap parameter
+uf: 1000

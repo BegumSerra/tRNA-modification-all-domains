@@ -1,0 +1,46 @@
+# Example config file for domain-figure.py
+# YAML format
+
+
+# proteins:
+#   - name: BactTGT
+#     pfam: /home/begum/Projects/EBA/output/domain/blast/merged/Tgt.tsv
+#     fasta: /home/begum/Projects/EBA/output/seqs/filtering/Tgt_nogaps_e01_c01.fa
+#     protein_id: NP_308484.1
+
+#   - name: EukTGT
+#     pfam: /home/begum/Projects/EBA/output/domain/blast/merged/QTRT1.tsv
+#     fasta: /home/begum/Projects/EBA/output/seqs/filtering/QTRT1_nogaps_c01.fa
+#     protein_id: EP00074_Homo_sapiens_P042974
+
+#   - name: ArcTGT
+#     pfam: /home/begum/Projects/EBA/output/domain/blast/merged/TgtA.tsv
+#     fasta: /home/begum/Projects/EBA/output/seqs/filtering/TgtA_f01.fa
+#     protein_id: UCE09768.1
+
+#   - name: ArcS
+#     pfam: /home/begum/Projects/EBA/output/domain/blast/merged/ArcS.tsv
+#     fasta: /home/begum/Projects/EBA/output/seqs/filtering/ArcS_f01.fa
+#     protein_id: WP_004041892.1
+
+
+proteins:
+ - name: MnmE
+   pfam: /home/begum/PycharmProjects/PythonProject/Jan_2026_tRNA/output/domain/blast/merged/MnmE.tsv
+   fasta: /home/begum/PycharmProjects/PythonProject/Jan_2026_tRNA/output/seqs/homologs/MnmE_k01_f01_e01_c01_m01_m02_nogaps_r01.fa
+   protein_id: NP_312668.1
+
+ - name: MnmG
+   pfam: /home/begum/PycharmProjects/PythonProject/Jan_2026_tRNA/output/domain/blast/merged/MnmG.tsv
+   fasta: /home/begum/PycharmProjects/PythonProject/Jan_2026_tRNA/output/seqs/homologs/MnmG_k01_f00_e01_c01_m01_m02_nogaps_r01_t01.fa
+   protein_id: NP_312710.1
+
+ - name: ELP3
+   pfam: /home/begum/PycharmProjects/PythonProject/Jan_2026_tRNA/output/domain/blast/merged/ELP3.tsv
+   fasta: /home/begum/PycharmProjects/PythonProject/Jan_2026_tRNA/output/seqs/homologs/Elp3_k01_f01_e00_c01_m01_nogaps_r01_a01.fa
+   protein_id: EP00074_Homo_sapiens_P039878
+
+ - name: ELP3
+   pfam: /home/begum/PycharmProjects/PythonProject/Jan_2026_tRNA/output/domain/blast/merged/ELP3.tsv
+   fasta: /home/begum/PycharmProjects/PythonProject/Jan_2026_tRNA/output/seqs/homologs/Elp3_k01_f01_e00_c01_m01_nogaps_r01_a01.fa
+   protein_id: WP_004044705.1

@@ -1,0 +1,35 @@
+# Configuration file for merging proteins and building trees
+# Auto-generated configuration
+
+# List of merged protein names to process
+MERGE:
+  - Tgt-QTRT1 
+  # - TadA-ADAT2 
+  # - MnmA-MTU1 
+
+# Mapping from merged name to list of proteins with their filters
+PROTEINS:
+  Tgt-QTRT1:
+    fasta_names:
+      - Tgt_k01_f00_e01_c01_nogaps
+      - QTRT1_k01_f00_e00_c01_nogaps
+    base_names:
+      - Tgt
+      - QTRT1
+  # TadA-ADAT2:
+  #   fasta_names:
+  #     - TadA_k01_f01_e01_c01_nogaps
+  #     - ADAT2_k01_f01_e01_c01_nogaps
+  #   base_names:
+  #     - TadA
+  #     - ADAT2
+  # MnmA-MTU1:
+  #   fasta_names:
+  #     - MnmA_k01_f01_e01_c01_nogaps
+  #     - MTU1_k01_f01_e00_c01_nogaps
+  #   base_names:
+  #     - MnmA
+  #     - MTU1  
+
+# IQTree ultrafast bootstrap parameter
+uf: 1000

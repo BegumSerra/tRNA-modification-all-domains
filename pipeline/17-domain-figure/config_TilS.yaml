@@ -1,0 +1,13 @@
+# Example config file for domain-figure.py
+# YAML format
+
+proteins:
+ - name: TilS
+   pfam: /home/begum/PycharmProjects/PythonProject/Jan_2026_tRNA/output/domain/blast/merged/TilS.tsv
+   fasta: /home/begum/PycharmProjects/PythonProject/Jan_2026_tRNA/output/seqs/homologs/TilS_k01_f01_e01_c01_nogaps_r01.fa
+   protein_id: NP_308217.1
+
+ - name: TiaS
+   pfam: /home/begum/PycharmProjects/PythonProject/Jan_2026_tRNA/output/domain/blast/merged/TiaS.tsv
+   fasta: /home/begum/PycharmProjects/PythonProject/Jan_2026_tRNA/output/seqs/homologs/TiaS_k01_f00_e00_c01_nogaps_r00.fa
+   protein_id: WP_064496722.1

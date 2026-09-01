@@ -1,0 +1,138 @@
+# Configuration for phylogenetic tree construction
+# Lists all proteins with their final filtered sequences (c00 or c01)
+PROTEIN:
+  ["ADAT2_k01_f01_e01_c01_nogaps",
+  "ADAT3_k01_f01_e01_c01_nogaps",
+  "ALKB1_k01_f01_e00_c01_nogaps",
+  "ALKB8_k01_f01_e01_c01_nogaps",
+  "ArcS_k01_f00_e00_c00_nogaps",
+  "CTU1_k01_f01_e01_c01_nogaps",
+  "CTU2_k01_f01_e00_c01_nogaps",
+  "CmoA_k01_f00_e01_c00_nogaps",
+  "CmoB_k01_f00_e01_c00_nogaps",
+  "CmoM_k01_f01_e01_c00_nogaps",
+  "ELP1_k01_f00_e00_c01_nogaps",
+  "ELP2_k01_f01_e00_c01_nogaps",
+  "ELP4_k01_f00_e00_c01_nogaps",
+  "ELP5_k01_f00_e00_c01_nogaps",
+  "ELP6_k01_f00_e00_c01_nogaps",
+  "Elp3_k01_f01_e00_c01_m01_nogaps",
+  "FolE_k01_f01_e01_c01_m01_nogaps",
+  "GTPB3_k01_f01_e01_c01_nogaps",
+  "IscS_k01_f01_e01_c01_nogaps",
+  "MTO1_k01_f00_e01_c01_nogaps",
+  "MTU1_k01_f01_e00_c01_nogaps",
+  "MnmA_k01_f01_e01_c01_nogaps",
+  "MnmC_k01_f01_e01_c01_nogaps",
+  "MnmE_k01_f01_e01_c01_m01_m02_nogaps",
+  "MnmG_k01_f00_e01_c01_m01_m02_nogaps",
+  "MnmH_k01_f01_e00_c01_nogaps",
+  "NFS1_k01_f01_e01_c01_nogaps",
+  "NSUN2_k01_f01_e00_c01_nogaps",
+  "NSUN3_k01_f00_e00_c01_nogaps",
+  "PUS1_k01_f01_e01_c01_m01_nogaps",
+  "PUS7_k01_f01_e01_c01_nogaps",
+  "Pus10_k01_f00_e00_c01_nogaps",
+  "Pus3_k01_f01_e01_c01_nogaps",
+  "QTRT1_k01_f00_e00_c01_nogaps",
+  "QTRT2_k01_f01_e00_c01_nogaps",
+  "QueA_k01_f01_e01_c01_nogaps",
+  "QueC_k01_f01_e01_c01_nogaps",
+  "QueD_k01_f01_e01_c01_nogaps",
+  "QueE_k01_f00_e01_c01_nogaps",
+  "QueF_k01_f00_e01_c00_nogaps",
+  "QueG_k01_f01_e01_c00_nogaps",
+  "SelD_k01_f01_e01_c01_nogaps",
+  "TRM7_k01_f01_e00_c01_nogaps",
+  "TRM9B_k01_f01_e00_c01_nogaps",
+  "TRMT112_k01_f01_e00_c01_nogaps",
+  "TadA_k01_f01_e01_c01_nogaps",
+  "Tgt_k01_f00_e01_c01_nogaps",
+  "TgtA_k01_f00_e00_c00_nogaps",
+  "TiaS_k01_f00_e00_c01_nogaps",
+  "TilS_k01_f01_e01_c01_nogaps",
+  "TmcA_k01_f01_e01_c01_nogaps",
+  "TrhO_k01_f01_e01_c01_nogaps",
+  "TrhP_k01_f01_e01_c01_m01_nogaps",
+  "Trm9_k01_f00_e00_c00_nogaps",
+  "TrmL_k01_f01_e01_c01_nogaps",
+  "Tuc1_k01_f01_e00_c01_nogaps",
+  "TusA_k01_f01_e01_c00_nogaps",
+  "TusC_k01_f00_e01_c00_nogaps",
+  "TusD_k01_f00_e00_c00_nogaps",
+  "WDR6_k01_f01_e00_c01_nogaps",
+  "YadB_k01_f00_e01_c01_nogaps"]
+
+# Mapping from protein name to filter string (for file lookup)
+FILTER_TO_PROTEIN:
+  ADAT2: ADAT2_k01_f01_e01_c01_nogaps
+  ADAT3: ADAT3_k01_f01_e01_c01_nogaps
+  ALKB1: ALKB1_k01_f01_e00_c01_nogaps
+  ALKB8: ALKB8_k01_f01_e01_c01_nogaps
+  ArcS: ArcS_k01_f00_e00_c00_nogaps
+  CTU1: CTU1_k01_f01_e01_c01_nogaps
+  CTU2: CTU2_k01_f01_e00_c01_nogaps
+  CmoA: CmoA_k01_f00_e01_c00_nogaps
+  CmoB: CmoB_k01_f00_e01_c00_nogaps
+  CmoM: CmoM_k01_f01_e01_c00_nogaps
+  ELP1: ELP1_k01_f00_e00_c01_nogaps
+  ELP2: ELP2_k01_f01_e00_c01_nogaps
+  ELP4: ELP4_k01_f00_e00_c01_nogaps
+  ELP5: ELP5_k01_f00_e00_c01_nogaps
+  ELP6: ELP6_k01_f00_e00_c01_nogaps
+  Elp3: Elp3_k01_f01_e00_c01_m01_nogaps
+  FolE: FolE_k01_f01_e01_c01_m01_nogaps
+  GTPB3: GTPB3_k01_f01_e01_c01_nogaps
+  IscS: IscS_k01_f01_e01_c01_nogaps
+  MTO1: MTO1_k01_f00_e01_c01_nogaps
+  MTU1: MTU1_k01_f01_e00_c01_nogaps
+  MnmA: MnmA_k01_f01_e01_c01_nogaps
+  MnmC: MnmC_k01_f01_e01_c01_nogaps
+  MnmE: MnmE_k01_f01_e01_c01_m01_m02_nogaps
+  MnmG: MnmG_k01_f00_e01_c01_m01_m02_nogaps
+  MnmH: MnmH_k01_f01_e00_c01_nogaps
+  NFS1: NFS1_k01_f01_e01_c01_nogaps
+  NSUN2: NSUN2_k01_f01_e00_c01_nogaps
+  NSUN3: NSUN3_k01_f00_e00_c01_nogaps
+  PUS1: PUS1_k01_f01_e01_c01_m01_nogaps
+  PUS7: PUS7_k01_f01_e01_c01_nogaps
+  Pus10: Pus10_k01_f00_e00_c01_nogaps
+  Pus3: Pus3_k01_f01_e01_c01_nogaps
+  QTRT1: QTRT1_k01_f00_e00_c01_nogaps
+  QTRT2: QTRT2_k01_f01_e00_c01_nogaps
+  QueA: QueA_k01_f01_e01_c01_nogaps
+  QueC: QueC_k01_f01_e01_c01_nogaps
+  QueD: QueD_k01_f01_e01_c01_nogaps
+  QueE: QueE_k01_f00_e01_c01_nogaps
+  QueF: QueF_k01_f00_e01_c00_nogaps
+  QueG: QueG_k01_f01_e01_c00_nogaps
+  SelD: SelD_k01_f01_e01_c01_nogaps
+  TRM7: TRM7_k01_f01_e00_c01_nogaps
+  TRM9B: TRM9B_k01_f01_e00_c01_nogaps
+  TRMT112: TRMT112_k01_f01_e00_c01_nogaps
+  TadA: TadA_k01_f01_e01_c01_nogaps
+  Tgt: Tgt_k01_f00_e01_c01_nogaps
+  TgtA: TgtA_k01_f00_e00_c00_nogaps
+  TiaS: TiaS_k01_f00_e00_c01_nogaps
+  TilS: TilS_k01_f01_e01_c01_nogaps
+  TmcA: TmcA_k01_f01_e01_c01_nogaps
+  TrhO: TrhO_k01_f01_e01_c01_nogaps
+  TrhP: TrhP_k01_f01_e01_c01_m01_nogaps
+  Trm9: Trm9_k01_f00_e00_c00_nogaps
+  TrmL: TrmL_k01_f01_e01_c01_nogaps
+  Tuc1: Tuc1_k01_f01_e00_c01_nogaps
+  TusA: TusA_k01_f01_e01_c00_nogaps
+  TusC: TusC_k01_f00_e01_c00_nogaps
+  TusD: TusD_k01_f00_e00_c00_nogaps
+  WDR6: WDR6_k01_f01_e00_c01_nogaps
+  YadB: YadB_k01_f00_e01_c01_nogaps
+
+# Summary statistics
+# Total proteins: 59
+# With CD-HIT clustering (c01): 45 proteins
+# Without CD-HIT clustering (c00): 10 proteins (ArcS, CmoA, CmoB, CmoM, QueF, QueG, Trm9, TusA, TusC, TusD)
+# With manual filtering (m01): 4 proteins
+# With manual filtering (m02): 2 proteins (MnmE, MnmG)
+
+# Parameters
+uf: 1000

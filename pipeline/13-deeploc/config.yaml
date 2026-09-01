@@ -1,0 +1,11 @@
+## wildcards ##
+# name of the protein to be analyzed
+PROTEIN: ["ELP3", "MnmG", "MnmE", "Tgt-QTRT1", "MnmA-MTU1", "Tuc1", "TilS", "TadA-ADAT2"]
+
+## paths ##
+# env path
+env: "env.yml"
+# input directories
+# fasta file
+table: "../../output/deeploc/table"
+range: "../../output/itol/templates/dataset_ranges_deeploc"

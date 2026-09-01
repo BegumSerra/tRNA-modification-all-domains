@@ -1,0 +1,19 @@
+# Configuration for phylogenetic tree construction
+# Lists all proteins with eukaryotic duplicates filtered (r00 or r01)
+# Includes both regular proteins and combined tree proteins
+PROTEIN:
+  ["Tuc1_k01_f01_e00_c01_nogaps_r01_a01",
+  "TRM9B_k01_f01_e00_c01_nogaps_r01_a01",
+  "MnmE_k01_f01_e01_c01_m01_m02_nogaps_r01",
+  "TgtA_k01_f00_e00_c00_nogaps_r00",
+  "MnmH_k01_f01_e00_c01_nogaps_r01"]
+
+# Mapping from protein name to filter string (for file lookup)
+FILTER_TO_PROTEIN:
+  Tuc1: Tuc1_k01_f01_e00_c01_nogaps_r01_a01
+  TRM9B: TRM9B_k01_f01_e00_c01_nogaps_r01_a01
+  MnmE: MnmE_k01_f01_e01_c01_m01_m02_nogaps_r01
+  TgtA: TgtA_k01_f00_e00_c00_nogaps_r00
+  MnmH: MnmH_k01_f01_e00_c01_nogaps_r01
+
+

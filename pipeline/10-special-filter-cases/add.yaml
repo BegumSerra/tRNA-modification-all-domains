@@ -1,0 +1,20 @@
+# Configuration for phylogenetic tree construction
+# Lists all proteins with their final filtered sequences (c00 or c01)
+PROTEIN:
+  ["Tuc1_k01_f01_e00_c01_nogaps_r01",
+  "TRM9B_k01_f01_e00_c01_nogaps_r01"]
+
+# Mapping from protein name to filter string (for file lookup)
+FILTER_TO_PROTEIN:
+  Tuc1: Tuc1_k01_f01_e00_c01_nogaps_r01
+  TRM9B: TRM9B_k01_f01_e00_c01_nogaps_r01
+
+# Summary statistics
+# Total proteins: 59
+# With CD-HIT clustering (c01): 45 proteins
+# Without CD-HIT clustering (c00): 10 proteins (ArcS, CmoA, CmoB, CmoM, QueF, QueG, Trm9, TusA, TusC, TusD)
+# With manual filtering (m01): 4 proteins
+# With manual filtering (m02): 2 proteins (MnmE, MnmG)
+
+# Parameters
+uf: 1000

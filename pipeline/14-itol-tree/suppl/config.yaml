@@ -1,0 +1,17 @@
+# Single-protein trees  (treefile + phylum_table under the normal dirs)
+proteins:
+  ArcS: k01_f00_e00_c00_nogaps_r00
+  Elp3: k01_f01_e00_c01_m01_nogaps_r01_a01
+  TiaS: k01_f00_e00_c01_nogaps_r00
+  TilS: k01_f01_e01_c01_nogaps_r01
+  MnmE: k01_f01_e01_c01_m01_m02_nogaps_r01
+  MnmG: k01_f00_e01_c01_m01_m02_nogaps_r01
+  MnmH: k01_f01_e00_c01_nogaps_r01
+  TgtA: k01_f00_e00_c00_nogaps_r00
+  Tuc1: k01_f01_e00_c01_nogaps_r01_a01
+
+# Combined / merged trees  (treefile + phylum_table under combined_tree/ subdirs)
+combined_proteins:
+  Tgt-QTRT1:  m01_r01
+  TadA-ADAT2: m01_r01
+  MnmA-MTU1:  m01_r01

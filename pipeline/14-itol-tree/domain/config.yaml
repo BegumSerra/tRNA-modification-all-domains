@@ -1,0 +1,55 @@
+# Configuration for domain table creation
+
+## Proteins to process
+PROTEIN:
+  - ArcS
+  - Elp3
+  - TiaS
+  - TilS
+  - MnmE
+  - MnmG
+  - MnmH
+  - Tuc1
+  - TgtA
+
+COMBINED_PROTEIN:
+  - MnmA-MTU1
+  - TadA-ADAT2
+  - Tgt-QTRT1
+
+# Mapping from protein name to FASTA file basename
+MAP:
+  ArcS: ArcS_k01_f00_e00_c00_nogaps_r00
+  Elp3: Elp3_k01_f01_e00_c01_m01_nogaps_r01
+  TiaS: TiaS_k01_f00_e00_c01_nogaps_r00
+  TilS: TilS_k01_f01_e01_c01_nogaps_r01
+  MnmE: MnmE_k01_f01_e01_c01_m01_m02_nogaps_r01
+  MnmG: MnmG_k01_f00_e01_c01_m01_m02_nogaps_r01
+  MnmH: MnmH_k01_f01_e00_c01_nogaps_r01
+  TgtA: TgtA_k01_f00_e00_c00_nogaps_r00
+  Tuc1: Tuc1_k01_f01_e00_c01_nogaps_r01_a01
+  MnmA-MTU1: MnmA-MTU1_m01_r01
+  TadA-ADAT2: TadA-ADAT2_m01_r01
+  Tgt-QTRT1: Tgt-QTRT1_m01_r01
+
+# Mapping from protein name to InterProScan TSV basename
+# For combined trees, use the first protein name as the domain source
+DOMAIN_MAP:
+  ArcS: ArcS
+  Elp3: Elp3
+  TiaS: TiaS
+  TilS: TilS
+  MnmE: MnmE
+  MnmG: MnmG
+  MnmH: MnmH
+  TgtA: TgtA
+  Tuc1: Tuc1
+  MnmA-MTU1: MnmA
+  TadA-ADAT2: TadA
+  Tgt-QTRT1: Tgt
+
+## Paths ##
+fasta: "../../../output/seqs/homologs"
+fasta_combined: "../../../output/seqs/combined_tree"
+domain: "../../../output/domain/blast/merged"
+output: "../../../output/itol/templates/domain"

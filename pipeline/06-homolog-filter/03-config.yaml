@@ -1,0 +1,89 @@
+# Configuration file for filtering eukaryotic copies from tree (step 03)
+# Auto-generated based on results from step 02 (f01 filtering) and available e01 IDs
+# This config defines which proteins fall into each category based on:
+# 1. Proteins that completed f01 filtering (step 02)
+# 2. Proteins that have e01 filtering IDs available
+
+# Proteins that went through f01 filtering AND have e01 IDs
+# These will be processed as {protein}_f01 -> {protein}_f01_e01
+# Source: Proteins with both fasta/*_f01.fa files and ids/e01/{protein}.txt files
+K01_F01_E01:
+  - ADAT2
+  - ADAT3
+  - ALKB8
+  - CmoM
+  - CTU1
+  - FolE
+  - GTPB3
+  - IscS
+  - MnmA
+  - MnmC
+  - MnmE
+  - NFS1
+  - Pus3
+  - PUS1
+  - PUS7
+  - QueA
+  - QueC
+  - QueD
+  - QueG
+  - SelD
+  - TadA
+  - TilS
+  - TmcA
+  - TrhO
+  - TrhP
+  - TrmL
+  - TusA
+
+# Proteins that did NOT go through f01 filtering (f00) AND have e01 IDs
+# These will be processed as {protein}_f00 -> {protein}_f00_e01
+# Source: Proteins with both fasta/*_f00.fa files and ids/e01/{protein}.txt files
+K01_F00_E01:
+  - CmoA
+  - CmoB
+  - MnmG
+  - MTO1
+  - QueE
+  - QueF
+  - Tgt
+  - TusC
+  - YadB
+
+# Proteins that went through f01 filtering but do NOT have e01 IDs
+# These will be copied as {protein}_f01 -> {protein}_f01_e00
+# Source: Proteins with fasta/*_f01.fa files but no ids/e01/{protein}.txt files
+K01_F01_E00:
+  - ALKB1
+  - CTU2
+  - ELP2
+  - Elp3
+  - MnmH
+  - MTU1
+  - NSUN2
+  - QTRT2
+  - TRM7
+  - TRM9B
+  - TRMT112
+  - Tuc1
+  - WDR6
+
+# Proteins that did NOT go through f01 filtering (f00) and do NOT have e01 IDs
+# These will be copied as {protein}_f00 -> {protein}_f00_e00
+# Source: Proteins with fasta/*_f00.fa files but no ids/e01/{protein}.txt files
+K01_F00_E00:
+  - ArcS
+  - ELP1
+  - ELP4
+  - ELP5
+  - ELP6
+  - NSUN3
+  - Pus10
+  - QTRT1
+  - TgtA
+  - TiaS
+  - Trm9
+  - TusD
+
+# IQTree ultrafast bootstrap parameter
+uf: 1000

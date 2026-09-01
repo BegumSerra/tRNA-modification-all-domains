@@ -1,0 +1,30 @@
+SINGLE:
+  ["Elp3_k01_f01_e00_c01_m01_nogaps_r01",
+  "ArcS_k01_f00_e00_c00_nogaps_r00",
+  "TiaS_k01_f00_e00_c01_nogaps_r00",
+  "TilS_k01_f01_e01_c01_nogaps_r01",
+  "MnmE_k01_f01_e01_c01_m01_m02_nogaps_r01",
+  "MnmG_k01_f00_e01_c01_m01_m02_nogaps_r01",
+  "TgtA_k01_f00_e00_c00_nogaps_r00",
+  "Tuc1_k01_f01_e00_c01_nogaps_r01_a01"]
+
+COMBINED:
+  ["TadA-ADAT2_m01_r01",
+  "MnmA-MTU1_m01_r01",
+  "Tgt-QTRT1_m01_r01"]
+
+# Mapping from protein name to filter string (for file lookup)
+FILTER_TO_PROTEIN:
+  TadA-ADAT2: TadA-ADAT2_m01_r01
+  MnmA-MTU1: MnmA-MTU1_m01_r01
+  Elp3: Elp3_k01_f01_e00_c01_m01_nogaps_r01
+  ArcS: ArcS_k01_f00_e00_c00_nogaps_r00
+  TiaS: TiaS_k01_f00_e00_c01_nogaps_r00
+  TilS: TilS_k01_f01_e01_c01_nogaps_r01
+  MnmE: MnmE_k01_f01_e01_c01_m01_m02_nogaps_r01
+  Tgt-QTRT1: Tgt-QTRT1_m01_r01
+  MnmG: MnmG_k01_f00_e01_c01_m01_m02_nogaps_r01
+  TgtA: TgtA_k01_f00_e00_c00_nogaps_r00
+  Tuc1: Tuc1_k01_f01_e00_c01_nogaps_r01_a01
+
+  

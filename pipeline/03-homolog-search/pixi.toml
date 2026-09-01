@@ -1,0 +1,16 @@
+[workspace]
+authors = ["BegumSerra <begumserra@gmail.com>"]
+channels = ["conda-forge", "bioconda"]
+name = "1-homolog-search"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+blast= "2.15.0.*"
+python="*"
+biopython="*"
+pandas="*"
+openpyxl="*"
+

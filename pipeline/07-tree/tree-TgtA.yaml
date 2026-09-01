@@ -1,0 +1,12 @@
+# Configuration for phylogenetic tree construction
+# Lists all proteins with their final filtered sequences (c00 or c01)
+PROTEIN:
+  ["TgtA_k01_f00_e00_c00",
+  "MnmH_k01_f01_e00_c01"]
+
+# Mapping from protein name to filter string (for file lookup)
+FILTER_TO_PROTEIN:
+  TgtA: TgtA_k01_f00_e00_c00
+  MnmH: MnmH_k01_f01_e00_c01
+# Parameters
+uf: 1000

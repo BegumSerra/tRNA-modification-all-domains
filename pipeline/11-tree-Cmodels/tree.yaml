@@ -1,0 +1,15 @@
+# Configuration for phylogenetic tree construction
+# Lists all proteins with eukaryotic duplicates filtered (r00 or r01)
+# Includes both regular proteins and combined tree proteins
+PROTEIN:
+  #["Elp3_k01_f01_e00_c01_m01_nogaps_r01",
+  ["Tgt-QTRT1_m01_r01"]
+  #"TadA-ADAT2_m01_r01",
+  #"MnmA-MTU1_m01_r01"]
+
+# Mapping from protein name to filter string (for file lookup)
+FILTER_TO_PROTEIN:
+  #Elp3: Elp3_k01_f01_e00_c01_m01_nogaps_r01
+  #MnmA-MTU1_m01: MnmA-MTU1_m01_r01
+  #TadA-ADAT2_m01: TadA-ADAT2_m01_r01
+  Tgt-QTRT1_m01: Tgt-QTRT1_m01_r01

@@ -1,0 +1,19 @@
+[workspace]
+authors = ["BegumSerra <begumserra@gmail.com>"]
+channels = ["conda-forge", "bioconda", "default"]
+name = "1-homolog-search"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python="*"
+ete3="*"
+pandas="*"
+biopython="*"
+legacy-cgi="*"
+matplotlib="*"
+mafft=">=7.520"
+iqtree=">=2.2.0"
+trimal="1.4.1.*"
