@@ -1,6 +1,8 @@
 # python
 import argparse
 import os
+import matplotlib
+matplotlib.use("Agg")  # non-interactive backend; avoids Qt/display dependency issues
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch
@@ -214,11 +216,11 @@ def plot_multiple_protein_domains(proteins_data, domains_df, outpath, dpi=200):
                                  edgecolor='black', linewidth=0, zorder=2,
                                  mutation_scale=15)
             ax.add_patch(box)
-            ax.text(s + width/2, y, r['pfam_id'], ha='center', va='center', fontsize=12, weight='bold', zorder=3)
+            ax.text(s + width/2, y, r['pfam_id'], ha='center', va='center', fontsize=12, weight='bold', zorder=3, fontname='Arial')
 
     plt.tight_layout()
     fig.subplots_adjust(left=0.25)  # Bigger left margin
-    fig.savefig(outpath, dpi=dpi, bbox_inches='tight')
+    fig.savefig(outpath, format='svg', bbox_inches='tight')
     plt.close(fig)
 
 
@@ -339,9 +341,9 @@ def main(pfam_files=None, protein_files=None, outdir=None, protein_ids=None, fil
     print(f"\nGenerating figure for {len(all_proteins_data)} protein(s)...")
 
     if len(all_proteins_data) > 1:
-        outfile = os.path.join(outdir, "combined_stacked_TadA_ADAT2.png")
+        outfile = os.path.join(outdir, "combined_stacked_TadA_ADAT2.svg")
     else:
-        outfile = os.path.join(outdir, f"{sanitize_name(all_proteins_data[0]['protein_id'])}.png")
+        outfile = os.path.join(outdir, f"{sanitize_name(all_proteins_data[0]['protein_id'])}.svg")
 
     plot_multiple_protein_domains(all_proteins_data, all_pfam_data, outfile)
 

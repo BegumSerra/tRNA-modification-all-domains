@@ -1,0 +1,46 @@
+# Example config file for domain-figure.py
+# YAML format
+
+
+# proteins:
+#   - name: BactTGT
+#     pfam: /home/begum/Projects/EBA/output/domain/blast/merged/Tgt.tsv
+#     fasta: /home/begum/Projects/EBA/output/seqs/filtering/Tgt_nogaps_e01_c01.fa
+#     protein_id: NP_308484.1
+
+#   - name: EukTGT
+#     pfam: /home/begum/Projects/EBA/output/domain/blast/merged/QTRT1.tsv
+#     fasta: /home/begum/Projects/EBA/output/seqs/filtering/QTRT1_nogaps_c01.fa
+#     protein_id: EP00074_Homo_sapiens_P042974
+
+#   - name: ArcTGT
+#     pfam: /home/begum/Projects/EBA/output/domain/blast/merged/TgtA.tsv
+#     fasta: /home/begum/Projects/EBA/output/seqs/filtering/TgtA_f01.fa
+#     protein_id: UCE09768.1
+
+#   - name: ArcS
+#     pfam: /home/begum/Projects/EBA/output/domain/blast/merged/ArcS.tsv
+#     fasta: /home/begum/Projects/EBA/output/seqs/filtering/ArcS_f01.fa
+#     protein_id: WP_004041892.1
+
+
+proteins:
+ - name: TgtB
+   pfam: /home/begum/PycharmProjects/PythonProject/Jan_2026_tRNA/output/domain/blast/merged/Tgt.tsv
+   fasta: /home/begum/PycharmProjects/PythonProject/Jan_2026_tRNA/output/seqs/homologs/Tgt_k01_f00_e01_c01_nogaps.fa
+   protein_id: NP_308484.1
+
+ - name: QTRT1
+   pfam: /home/begum/PycharmProjects/PythonProject/Jan_2026_tRNA/output/domain/blast/merged/QTRT1.tsv
+   fasta: /home/begum/PycharmProjects/PythonProject/Jan_2026_tRNA/output/seqs/homologs/QTRT1_k01_f00_e00_c01_nogaps.fa
+   protein_id: EP00074_Homo_sapiens_P042974
+
+ - name: TgtA
+   pfam: /home/begum/PycharmProjects/PythonProject/Jan_2026_tRNA/output/domain/blast/merged/TgtA.tsv
+   fasta: /home/begum/PycharmProjects/PythonProject/Jan_2026_tRNA/output/seqs/homologs/TgtA_k01_f00_e00_c00_nogaps.fa
+   protein_id: UCE09768.1
+
+ - name: TgtA2
+   pfam: /home/begum/PycharmProjects/PythonProject/Jan_2026_tRNA/output/domain/blast/merged/ArcS.tsv
+   fasta: /home/begum/PycharmProjects/PythonProject/Jan_2026_tRNA/output/seqs/homologs/ArcS_k01_f00_e00_c00_nogaps.fa
+   protein_id: WP_004041892.1

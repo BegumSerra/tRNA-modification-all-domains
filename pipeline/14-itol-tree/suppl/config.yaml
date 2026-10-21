@@ -9,6 +9,9 @@ proteins:
   MnmH: k01_f01_e00_c01_nogaps_r01
   TgtA: k01_f00_e00_c00_nogaps_r00
   Tuc1: k01_f01_e00_c01_nogaps_r01_a01
+  PUS1: k01_f01_e01_c01_m01_nogaps_r01
+  Pus3: k01_f01_e01_c01_nogaps_r01
+  Pus10: k01_f00_e00_c01_nogaps_r00
 
 # Combined / merged trees  (treefile + phylum_table under combined_tree/ subdirs)
 combined_proteins:

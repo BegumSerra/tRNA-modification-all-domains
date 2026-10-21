@@ -10,6 +10,9 @@ PROTEIN:
   - MnmG
   - TgtA
   - Tuc1
+  - PUS1
+  - Pus3
+  - Pus10
  
 COMBINED_PROTEIN:
   - MnmA-MTU1
@@ -25,6 +28,9 @@ TREE:
   - MnmG_k01_f00_e01_c01_m01_m02_nogaps_r01 
   - TgtA_k01_f00_e00_c00_nogaps_r00
   - Tuc1_k01_f01_e00_c01_nogaps_r01_a01
+  - PUS1_k01_f01_e01_c01_m01_nogaps_r01
+  - Pus3_k01_f01_e01_c01_nogaps_r01
+  - Pus10_k01_f00_e00_c01_nogaps_r00
 
 COMBINED_TREE:
   - MnmA-MTU1_m01_r01
@@ -43,3 +49,6 @@ MAP:
   Tgt-QTRT1: Tgt-QTRT1_m01_r01
   TgtA: TgtA_k01_f00_e00_c00_nogaps_r00
   Tuc1: Tuc1_k01_f01_e00_c01_nogaps_r01_a01
+  PUS1: PUS1_k01_f01_e01_c01_m01_nogaps_r01
+  Pus3: Pus3_k01_f01_e01_c01_nogaps_r01
+  Pus10: Pus10_k01_f00_e00_c01_nogaps_r00 
