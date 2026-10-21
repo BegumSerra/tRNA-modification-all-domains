@@ -1,4 +1,4 @@
-# Jan_2026_tRNA
+# tRNA modification proteins across all domains of life
 
 Snakemake-based bioinformatics pipeline for identifying, filtering, and
 analyzing homologs of tRNA-modification enzymes across archaea, bacteria,
